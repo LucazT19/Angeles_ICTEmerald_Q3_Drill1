@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Calculator Display</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial;
+      background-color: #f2f2f2;
+
+      position: absolute;
+      top: 39%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+
+
+  
+</head>
+
+<body>
+
+  <div class="calc" id="output"></div>
+
+ <script>
+    //Number
+    let add1 = 6;
+
+    //Number
+    let add2 = 7;
+
+    //Number
+    let sub1 = 14;
+
+    //Number
+    let sub2 = 7;
+
+    //Number
+    let mult1 = 14;
+
+    //Number
+    let mult2 = 7;
+
+    //Number    
+    let div1 = 14;
+
+    //Number
+    let div2 = 7;   
+
+   document.getElementById("output").innerHTML =
+   "<h2>Basic Calculator Display </h2>" +
+   "Addition: " + add1 + " + " + add2 + " = " + (add1 + add2) + "<br>" +
+   "Subtraction: " + sub1 + " - " + sub2 + " = " + (sub1 - sub2) + "<br>" +
+   "Multiplication: " + mult1 + " * " + mult2 + " = " + (mult1 * mult2) + "<br>" +
+   "Division: " + div1 + " / " + div2 + " = " + (div1 / div2) + "<br>";
+ </script>
+
+
+</body>
+
+</html>
